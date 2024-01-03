@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { connectDB } from "@/utils/mongo";
+import { connectDB } from "../ping/route";
 
 export function GET() {
   connectDB();

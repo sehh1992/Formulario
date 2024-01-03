@@ -8,7 +8,7 @@ export default function navBar() {
       <nav>
         <ul className="flex items-center py-5 px-2 text-white fond.bold rounded-sm aling-flex mx-2px ">
           <li className="hover:bg-blue-500 m-2">
-            <Link href="./task/new">crea una targea</Link>
+            <Link href="/task/new">crea una targea</Link>
           </li>
           <li className="hover:bg-blue-500 m-2">
             <Link href="/">Tareas Guardadas</Link>

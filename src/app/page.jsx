@@ -1,8 +1,8 @@
-import { connectDB } from "@/utils/mongo";
-import Task from "@/models/Task";
-import TaskCard from "@/comoponets/Taskcard";
+import { connectDB } from "../utils/mongo";
+import Task from "../models/Task";
+import TaskCard from "../comoponets/Taskcard";
 
-async function loadTask(params) {
+async function loadTask() {
   connectDB();
   const tasks = await Task.find();
   return tasks;
